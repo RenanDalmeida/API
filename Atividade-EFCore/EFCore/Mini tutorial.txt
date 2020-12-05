@@ -1,0 +1,9 @@
+1- Crie uma api project normal
+
+2- Conecte-se ao banco de daods desejado
+
+3- Digite no prompt do nuget
+
+Scaffold-DbContext "ConnectionString" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context NomeContext
+
+(Scaffold -> Gerar classes através de informações. Pode ser feitas de Controllers, etc.)
