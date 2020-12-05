@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juninho\\Desktop\\Códigos Daniel\\2S2DT-Sprint2-Backend\\Aulas\\6- ORM\\EF_Core-Code_First\\EF_Core-Code_First.csproj": {}
+    "C:\\Users\\rdalm\\OneDrive\\Documentos\\Trabalhos\\SENAI\\API\\Aulas\\6- ORM\\EF_Core-Code_First\\EF_Core-Code_First.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juninho\\Desktop\\Códigos Daniel\\2S2DT-Sprint2-Backend\\Aulas\\6- ORM\\EF_Core-Code_First\\EF_Core-Code_First.csproj": {
+    "C:\\Users\\rdalm\\OneDrive\\Documentos\\Trabalhos\\SENAI\\API\\Aulas\\6- ORM\\EF_Core-Code_First\\EF_Core-Code_First.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juninho\\Desktop\\Códigos Daniel\\2S2DT-Sprint2-Backend\\Aulas\\6- ORM\\EF_Core-Code_First\\EF_Core-Code_First.csproj",
+        "projectUniqueName": "C:\\Users\\rdalm\\OneDrive\\Documentos\\Trabalhos\\SENAI\\API\\Aulas\\6- ORM\\EF_Core-Code_First\\EF_Core-Code_First.csproj",
         "projectName": "EF_Core-Code_First",
-        "projectPath": "C:\\Users\\Juninho\\Desktop\\Códigos Daniel\\2S2DT-Sprint2-Backend\\Aulas\\6- ORM\\EF_Core-Code_First\\EF_Core-Code_First.csproj",
-        "packagesPath": "C:\\Users\\Juninho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juninho\\Desktop\\Códigos Daniel\\2S2DT-Sprint2-Backend\\Aulas\\6- ORM\\EF_Core-Code_First\\obj\\",
+        "projectPath": "C:\\Users\\rdalm\\OneDrive\\Documentos\\Trabalhos\\SENAI\\API\\Aulas\\6- ORM\\EF_Core-Code_First\\EF_Core-Code_First.csproj",
+        "packagesPath": "C:\\Users\\rdalm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rdalm\\OneDrive\\Documentos\\Trabalhos\\SENAI\\API\\Aulas\\6- ORM\\EF_Core-Code_First\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Juninho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rdalm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -97,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
