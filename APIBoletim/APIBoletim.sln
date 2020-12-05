@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30717.126
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIBoletim", "APIBoletim\APIBoletim.csproj", "{536D72EF-FA32-4C2C-B196-B11C5328D685}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIBoletim", "APIBoletim.csproj", "{F5D18FC9-9175-47DA-83E8-BCD13C0026F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{536D72EF-FA32-4C2C-B196-B11C5328D685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{536D72EF-FA32-4C2C-B196-B11C5328D685}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{536D72EF-FA32-4C2C-B196-B11C5328D685}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{536D72EF-FA32-4C2C-B196-B11C5328D685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D18FC9-9175-47DA-83E8-BCD13C0026F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D18FC9-9175-47DA-83E8-BCD13C0026F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D18FC9-9175-47DA-83E8-BCD13C0026F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D18FC9-9175-47DA-83E8-BCD13C0026F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6EB4FA37-80F0-47E9-B3D8-5E5E56F7A36A}
+		SolutionGuid = {04659A52-0DB7-4847-A392-AE66210FB612}
 	EndGlobalSection
 EndGlobal
