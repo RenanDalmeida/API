@@ -1,0 +1,1 @@
+Cria-se os domínios, adicionando as propriedades, constraints, etc.

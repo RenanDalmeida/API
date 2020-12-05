@@ -1,0 +1,2 @@
+Cria-se os contextos. Pode ter mais de um contexto, e em cada um deles você vai adicionar os domínios necessários. Por exemplo, o Senai pode ter o contexto Educativo, onde ficariam os domínios de Curso, Professores, Alunos, etc. Também pode ter o contexto Financeiro, onde ficariam os domínios de ContasAPagar, etc.
+Todo contexto herda de DbContext. Coloque o nome de contexto relacionado com o que terá nele, e não com o nome do banco de dados igual haviamos feito anteriormente (estava certo também, mas naquele contexto).

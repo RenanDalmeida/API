@@ -1,0 +1,1 @@
+Implementado na aula 11. É um mini framework.. Aqui ficarão códigos q vc já fez nesse projeto da aula 6 e quando precisar usar em algum código q vc começou do 0, é só importar e usar. As empresas hoje em dia usam essa tática, cria um cinto de utilidade com várias coisas, e quando precisam é só usar, poupando tempo e diminuindo prazos.

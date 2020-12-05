@@ -1,0 +1,23 @@
+Hora de criar o banco através do code first. Com nossas classes de domínio criadas e o nosso contexto, agora podemos criar o banco automaticamente.
+
+Ferramentas > Gerenciador de Pacotes do NuGet > Console do Gerenciador de Pacotes
+
+No prompt que irá abrir, escreva isso: dotnet ef migrations add InitialCreate e depois Add-Migration MigrationName -Project YourProjectName.
+
+Isso irá criar um Migration, que conterá os scripts de criação do banco.
+
+Para rodar os scripts do Migration e criar o banco, digite dotnet ef database update.
+
+Se quiser fazer alguma alteração ou adicionar um atributo em algum domínio, apagar uma tabela, faça e depois adicione uma nova migration. Para apagar uma tabela, é só excluir o domínio.
+
+Não esqueça de rodar o código com dotnet ef database update.
+
+Para voltar um migration, dê Remove Migration.
+
+Para gerar os scripts do banco, digite Script-Migration.
+
+Se quiser, crie uma pasta Scripts, digite Script-Migration -o "Caminho do arquivo" no prompt. Ex: Script-Migration -o Scripts\InitialCreate.sql
+
+Documentação de migrations com mais comandos: https://stackoverflow.com/questions/39644544/can-i-generate-script-of-a-migration-with-ef-code-first-and-net-core
+
+Voce tem acesso a todos os migrations pelo banco de dados.

@@ -1,0 +1,1 @@
+Vai depender de sua equipe e de seus objetivos. Por exemplo, se você tem uma equipe que lida melhor com o POO e quer um banco simples, utilize o code first. Agora, se sua equipe for composta de DBAs por exemplo, e você quer um banco com stored procedures, triggers, etc, utilize o database first.

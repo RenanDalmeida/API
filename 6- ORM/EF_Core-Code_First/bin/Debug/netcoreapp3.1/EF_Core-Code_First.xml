@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EF_Core-Code_First</name>
+    </assembly>
+    <members>
+        <member name="M:EF_Core_Code_First.Contexts.PedidoContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+                Sobrescrita do método OnConfiguring para configurarmos o nosso contexto com o caminho do banco de dados a ser usado.
+            </summary>
+            <param name="optionBuilder">Construtor de opções do contexto. Nossa conexão com o banco.</param>
+        </member>
+        <member name="M:EF_Core_Code_First.Controllers.PedidoController.Get">
+            <summary>
+                Retorna todos os pedidos se não der erro.
+            </summary>
+            <returns>Retorna todos os pedidos se não der erro.</returns>
+        </member>
+        <member name="M:EF_Core_Code_First.Controllers.PedidoController.Post(System.Collections.Generic.List{EF_Core_Code_First.Domains.PedidoProduto})">
+            <summary>
+                Cadastra um pedido e o PedidoProduto de uma vez.
+            </summary>
+            <param name="pedidosProdutos">Lista de pedidos produtos a serem cadastrados e já relacionados.</param>
+            <returns>Retorna o Pedido cadastrado.</returns>
+        </member>
+        <member name="M:EF_Core_Code_First.Controllers.ProdutoController.Get">
+            <summary>
+                Quando acessada a rota Produto com o método GET, retorna todos os produtos do banco de dados.
+            </summary>
+            <returns>Todos os produtos do banco de dados ou erros.</returns>
+        </member>
+        <member name="M:EF_Core_Code_First.Controllers.ProdutoController.Get(System.Guid)">
+            <summary>
+                Quando acessada a rota Produto/{id} com o método GET, retorna o produto do banco de dados que tenha o id especificado.
+            </summary>
+            <param name="id">Id do produto a ser retornado.</param>
+            <returns>Produto com o id especificado ou erros.</returns>
+        </member>
+        <member name="M:EF_Core_Code_First.Controllers.ProdutoController.Get(System.String)">
+            <summary>
+                Quando acessada a rota Produto/FiltrarPorNome/{nome} com o método GET, retorna o produto do banco de dados que contenha o nome especificado.
+            </summary>
+            <param name="nome">Nome do produto a ser retornado.</param>
+            <returns>Produto que contém o nome especificado ou erros.</returns>
+        </member>
+        <member name="M:EF_Core_Code_First.Controllers.ProdutoController.Post(EF_Core_Code_First.Domains.Produto)">
+            <summary>
+                Quando acessada a rota Produto com o método POST, você pode cadastrar um produto enviado via Body.
+            </summary>
+            <param name="produto">Produto a ser cadastrado.</param>
+            <returns>Retorna o produto que foi cadastrado.</returns>
+        </member>
+        <member name="M:EF_Core_Code_First.Controllers.ProdutoController.Put(EF_Core_Code_First.Domains.Produto)">
+            <summary>
+                Quando acessada a rota Produto com o método PUT, você pode alterar um produto enviado via Body. O método vai pegar o id do objeto enviado via Body e já vai saber quem tem que alterar.
+            </summary>
+            <param name="produtoAlterado">Produto já alterado.</param>
+            <returns>Retorna o produto que foi alterado.</returns>
+        </member>
+        <member name="M:EF_Core_Code_First.Controllers.ProdutoController.Delete(System.Guid)">
+            <summary>
+                Quando acessada a rota Produto/{id} com o método DELETE, você pode deletar um produto.
+            </summary>
+            <param name="id">Id do produto a ser deletado.</param>
+            <returns>Retorna o produto que foi deletado ou erros.</returns>
+        </member>
+        <member name="M:EF_Core_Code_First.Domains.BaseDomain.#ctor">
+            <summary>
+                Método construtor que garante que toda vez que um Produto for instanciado, ele receba um id único.
+            </summary>
+        </member>
+        <member name="M:EF_Core_Code_First.Domains.Pedido.#ctor">
+            <summary>
+                Método construtor que garante que toda vez que um Pedido for instanciado, ele receba um id único.
+            </summary>
+        </member>
+        <member name="M:EF_Core_Code_First.Domains.PedidoProduto.#ctor">
+            <summary>
+                Método construtor que garante que toda vez que um Produto for instanciado, ele receba um id único.
+            </summary>
+        </member>
+        <member name="M:EF_Core_Code_First.Domains.Produto.#ctor">
+            <summary>
+                Método construtor que garante que toda vez que um Produto for instanciado, ele receba um id único.
+            </summary>
+        </member>
+        <member name="M:EF_Core_Code_First.Repositories.PedidoRepository.#ctor">
+            <summary>
+                Construtor para instanciar nosso contexto, o banco de dados que salvará essas informações.
+            </summary>
+        </member>
+        <member name="M:EF_Core_Code_First.Repositories.PedidoRepository.Adicionar(System.Collections.Generic.List{EF_Core_Code_First.Domains.PedidoProduto})">
+            <summary>
+                Adiciona um pedido no banco de dados.
+            </summary>
+            <param name="pedidosProdutos">Lista de pedidos produtos para quando adicionarmos na tabela Pedido, adicionar automaticamente na tabela PedidoProduto.</param>
+            <returns>Retorna o pedido que foi adicionado para melhor visualização.</returns>
+        </member>
+        <member name="M:EF_Core_Code_First.Repositories.ProdutoRepository.#ctor">
+            <summary>
+                Construtor que certifica que toda vez que um ProdutoRepository for criado, o contexto seja instanciado.
+            </summary>
+        </member>
+        <member name="M:EF_Core_Code_First.Repositories.ProdutoRepository.Ler">
+            <summary>
+                Retorna todos os produtos cadastrados no banco de dados.
+            </summary>
+            <returns>Uma lista de produtos cadastrados no banco de dados.</returns>
+        </member>
+        <member name="M:EF_Core_Code_First.Repositories.ProdutoRepository.BuscarPorId(System.Guid)">
+            <summary>
+                Retorna o produto cadastrado no banco de dados que tenha o id especificado.
+            </summary>
+            <param name="id">Id do produto a ser retornado.</param>
+            <returns>Retorna o produto que tenha o id especificado.</returns>
+        </member>
+        <member name="M:EF_Core_Code_First.Repositories.ProdutoRepository.BuscarPorNome(System.String)">
+            <summary>
+                Filtra e retorna todos os produtos que tenha o nome especificado.
+            </summary>
+            <param name="nome">Nome a ser encontrado no produto a ser retornado.</param>
+            <returns>Retorna o produto que contenha o nome especificado.</returns>
+        </member>
+        <member name="M:EF_Core_Code_First.Repositories.ProdutoRepository.Adicionar(EF_Core_Code_First.Domains.Produto)">
+            <summary>
+                Adiciona um produto ao banco de dados.
+            </summary>
+            <param name="produto">Produto a ser adicionado ao banco de dados.</param>
+        </member>
+        <member name="M:EF_Core_Code_First.Repositories.ProdutoRepository.Alterar(EF_Core_Code_First.Domains.Produto)">
+            <summary>
+                Altera um produto no banco de dados.
+            </summary>
+            <param name="produto">Produto com alterações já feitas.</param>
+        </member>
+        <member name="M:EF_Core_Code_First.Repositories.ProdutoRepository.Excluir(System.Guid)">
+            <summary>
+                Exclui um produto do banco de dados.
+            </summary>
+            <param name="id">Id do produto a ser removido.</param>
+        </member>
+    </members>
+</doc>

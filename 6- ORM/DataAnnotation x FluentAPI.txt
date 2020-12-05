@@ -1,0 +1,11 @@
+Em CodeFirst, se cria os objetos do domínio e, a partir deles, as entidades do banco são criadas automaticamente. Mas como se definem constraints, quantidade máxima de caracteres e etc? Por meio de DataAnnotations ou FluentAPI.
+
+DataAnnotation -> É definida no próprio domínio. Ex:
+	public class RequestItem {
+		[Key]
+        	public int IDPedidoItem;
+	}
+	
+	Neste exemplo, a propriedade IDPedidoItem é definida como uma chave primária.
+
+FluentAPI -> Os objetos do domínio são criados normalmente e depois, em outro arquivo, adiciona-se essas informações.
