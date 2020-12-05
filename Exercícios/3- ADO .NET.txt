@@ -1,0 +1,1 @@
+O exercício está lá junto com o feito em aula. Em aula foram feitos GET, GET(id) e POST. O exercício foi fazer o PUT e o DELETE.

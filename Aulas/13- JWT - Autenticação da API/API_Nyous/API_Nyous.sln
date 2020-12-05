@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Nyous", "API_Nyous.csproj", "{907BFD93-35FA-4618-A99A-738566E07D38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{907BFD93-35FA-4618-A99A-738566E07D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907BFD93-35FA-4618-A99A-738566E07D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907BFD93-35FA-4618-A99A-738566E07D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907BFD93-35FA-4618-A99A-738566E07D38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E5BDAF2-B451-4266-A996-93B4973FB581}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+Adicione o contexto e as configurações do banco de dados. Coloque também a Fluent API.

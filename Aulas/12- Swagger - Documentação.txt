@@ -1,0 +1,1 @@
+Para que documentar um API? Para os desenvolvedores fornt-end saberem como usá-la (eles não entendem de backend) e também para outros desenvolvedores.

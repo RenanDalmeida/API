@@ -1,0 +1,3 @@
+Jogador - Nome, Email, Senha, Data Nasc
+Jogo - Nome, Descriçao, Data Lançamento
+JogosJogadores - IdJogo, IdJogador

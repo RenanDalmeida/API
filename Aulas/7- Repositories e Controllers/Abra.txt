@@ -1,0 +1,1 @@
+Nesta aula adicionamos os Repositories e os Controllers do projeto da aula 6.
